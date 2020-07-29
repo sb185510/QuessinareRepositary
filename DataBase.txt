@@ -1,0 +1,94 @@
+home
+Could you please let us know which area you need help with by responding with the # (E.g. Enter 1 for Transaction related queries)?<br>1) Transaction related Query<br>2) Device registration/initialization<br>3) OpenLane<br>4) Code files<br>5) None of the above.
+support
+Please reachout to Epsilon Maintainance Team<br>1.Go back to home
+support.1
+home
+thanks
+Thank you. Have a good day ahead.
+1
+Is the Transaction: <br>1.	Approved<br>2.	Declining with error<br>3.	Host Conncetivity Issue<br>4.	Go back to Home
+1.1
+Seems there is no issues with the transaction. Please reachout to Epsilon Maintainance Team<br>1.Go back to home
+1.1.1
+home
+1.2
+Could you please provide the details of error:<br>1.	@ERROR   Is the transaction Declined Internally?<br>2.	@ERROR   Host Declined?<br>3.	Other Decline
+1.2.1
+Check Cache Manager log to identify which manager declined the transaction. Get Additional logs based on decline and send it to EPS team <br> 1.	Issue resolved<br>2.	Issue not resolved
+1.2.1.1
+Awesome! <br>1) Go back home<br>2)I am good.
+1.2.1.1.1
+home
+1.2.1.1.2
+thanks
+1.2.1.2
+support
+1.2.2
+Can be an issue with request packet. Check with host for possible reason of decline<br> 1.	Issue resolved<br>2.	Issue not resolved
+1.2.2.1
+Awesome! <br>1) Go back home<br>2)I am good.
+1.2.2.1.1
+home
+1.2.2.1.2
+thanks
+1.2.2.2
+support
+1.2.3
+support
+1.3
+This could probably be due to network issue. You may check the network connection and retry to see if that resolves the issue.<br> 1.	Issue resolved<br>2.	Issue not resolved
+1.3.1
+Awesome! <br>1) Go back home<br>2)I am good.
+1.3.1.1
+home
+1.3.1.2
+thanks
+1.3.2
+support
+1.4
+home
+2
+Check the following: <br>1)Radviewer L3 Access?<br>2) Need more help?
+2.1
+Open run prompt and type ‘lusrmgr.msc’ and this opens local users and groups folder.<br>
+Click on Groups and select ‘New Group’. <br>
+Give the name ‘RadViewer Access-Global-L3’ and under members click Add button<br>
+In the prompt, give your QLID and make sure your name populated in the list.<br>
+Click on create button once you are done.<br>
+After this, go to RadViewer registry view and add a registry key under RadViewerAuthServer with name GroupDomain and value <your computer name>.<br>1.	Issue resolved<br>2.	Issue not resolved
+ 2.1.1
+Awesome! <br>1) Go back home<br>2)I am good.
+2.1.1.1
+home
+2.1.1.2
+thanks
+2.1.2
+support
+2.2
+support
+3
+Check the following:<br>1) Batch Close Stuck?<br>2) Batch Close Declined
+3.1
+It is a very common issue that causes the SNM and TNM to get misaligned with the BNM Global NVP Values.  Find the transaction that the batch close is complaining about and remove the “BatchDelayCalc” NVP from the tran.
+Please send the logs to EPS team for research<br>1.	Issue resolved<br>2.	Issue not resolved
+3.1.1
+Awesome! <br>1) Go back home<br>2)I am good.
+3.1.1.1
+home
+3.1.1.2
+thanks
+3.1.2
+support
+3.2
+If it is internal Decline, Send logs to EPS team. Otherwise reach out to host to get the possible reason of Decline<br>1.	Issue resolved<br>2.	Issue not resolved
+3.2.1
+Awesome! <br>1) Go back home<br>2)I am good.
+3.2.1.1
+home
+3.2.1.2
+thanks
+3.2.2
+support
+4
+support
