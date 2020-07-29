@@ -43,7 +43,7 @@ home
 2
 Check the following: <br>1)Radviewer L3 Access?<br>2) Need more help?
 2.1
-Open run prompt and type ‘lusrmgr.msc’ and this opens local users and groups folder.<br> Click on Groups and select ‘New Group’. <br> Give the name ‘RadViewer Access-Global-L3’ and under members click Add button<br> In the prompt, give your QLID and make sure your name populated in the list.<br> Click on create button once you are done.<br> After this, go to RadViewer registry view and add a registry key under RadViewerAuthServer with name GroupDomain and value <your computer name>.<br>1.	Issue resolved<br>2.	Issue not resolved
+Open run prompt and type 'lusrmgr.msc' and this opens local users and groups folder.<br> Click on Groups and select 'New Group'. <br> Give the name ‘RadViewer Access-Global-L3’ and under members click Add button<br> In the prompt, give your QLID and make sure your name populated in the list.<br> Click on create button once you are done.<br> After this, go to RadViewer registry view and add a registry key under RadViewerAuthServer with name GroupDomain and value <your computer name>.<br>1.	Issue resolved<br>2.	Issue not resolved
 2.1.1
 Welcome! <br>1) Go back home
 2.1.1.1
