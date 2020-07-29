@@ -55,7 +55,7 @@ Help
 3
 Check the following:<br>1) Batch Close Stuck?<br>2) Batch Close Declined
 3.1
-It is a very common issue that causes the SNM and TNM to get misaligned with the BNM Global NVP Values.  Find the transaction that the batch close is complaining about and remove the “BatchDelayCalc” NVP from the tran.<br>Please send the logs to EPS team for research<br>1.	Issue resolved<br>2.	Issue not resolved
+It is a very common issue that causes the SNM and TNM to get misaligned with the BNM Global NVP Values.  Find the transaction that the batch close is complaining about and remove the "BatchDelayCalc" NVP from the tran.<br>Please send the logs to EPS team for research<br>1.	Issue resolved<br>2.	Issue not resolved
 3.1.1
 Welcome! <br>1) Go back home
 3.1.1.1
