@@ -1,7 +1,7 @@
 ﻿home
 Please respond with the following options for the issue you are facing # (E.g. Enter 1 for Transaction related queries)?<br>1) Transaction related<br>2) Access Related<br>3) Batch Close<br>4) None of the above.
 Help
-Please reachout to Epsilon Maintainance Team<br>1.Go back to home
+Please reach out to Epsilon Maintainance Team<br>1.Go back to home
 Help.1
 home
 1
