@@ -1,4 +1,4 @@
-home
+﻿home
 Please respond with the following options for the issue you are facing # (E.g. Enter 1 for Transaction related queries)?<br>1) Transaction related<br>2) Access Related<br>3) Batch Close<br>4) None of the above.
 Help
 Please reachout to Epsilon Maintainance Team<br>1.Go back to home
@@ -43,13 +43,8 @@ home
 2
 Check the following: <br>1)Radviewer L3 Access?<br>2) Need more help?
 2.1
-Open run prompt and type â€˜lusrmgr.mscâ€™ and this opens local users and groups folder.<br>
-Click on Groups and select â€˜New Groupâ€™. <br>
-Give the name â€˜RadViewer Access-Global-L3â€™ and under members click Add button<br>
-In the prompt, give your QLID and make sure your name populated in the list.<br>
-Click on create button once you are done.<br>
-After this, go to RadViewer registry view and add a registry key under RadViewerAuthServer with name GroupDomain and value <your computer name>.<br>1.	Issue resolved<br>2.	Issue not resolved
- 2.1.1
+Open run prompt and type ‘lusrmgr.msc’ and this opens local users and groups folder.<br> Click on Groups and select ‘New Group’. <br> Give the name ‘RadViewer Access-Global-L3’ and under members click Add button<br> In the prompt, give your QLID and make sure your name populated in the list.<br> Click on create button once you are done.<br> After this, go to RadViewer registry view and add a registry key under RadViewerAuthServer with name GroupDomain and value <your computer name>.<br>1.	Issue resolved<br>2.	Issue not resolved
+2.1.1
 Welcome! <br>1) Go back home
 2.1.1.1
 home
@@ -60,8 +55,7 @@ Help
 3
 Check the following:<br>1) Batch Close Stuck?<br>2) Batch Close Declined
 3.1
-It is a very common issue that causes the SNM and TNM to get misaligned with the BNM Global NVP Values.  Find the transaction that the batch close is complaining about and remove the â€œBatchDelayCalcâ€ NVP from the tran.
-Please send the logs to EPS team for research<br>1.	Issue resolved<br>2.	Issue not resolved
+It is a very common issue that causes the SNM and TNM to get misaligned with the BNM Global NVP Values.  Find the transaction that the batch close is complaining about and remove the “BatchDelayCalc” NVP from the tran.<br>Please send the logs to EPS team for research<br>1.	Issue resolved<br>2.	Issue not resolved
 3.1.1
 Welcome! <br>1) Go back home
 3.1.1.1
